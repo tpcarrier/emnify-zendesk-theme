@@ -16,7 +16,7 @@
       {{link 'new_post' role='button' topic_id=topic.id class='button button-large'}}
     </span>
   </header>
-  <div class="community-header">
+  <div class="header">
     <p class="page-header-description">{{topic.description}}</p>
     {{#if settings.show_follow_topic}}
       <div class="community-follow">
@@ -103,7 +103,7 @@
   {{pagination}}
 </div>
 
-<section class="container community-footer">
+<section class="container footer">
   <h4>{{t 'suggest_new_post'}}</h4>
   {{link 'new_post' role='button' class='button-large'}}
 </section>
